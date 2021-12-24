@@ -1,0 +1,32 @@
+      Open GitHub
+
+link : https://github.com/(Create account if you don't have)
+
+1) Click on Start a project (or) Click on New
+
+    -->Give a Repository name ( your Wish ...like(Myfirst-App))
+    -->give public
+    -->check Add a README file
+
+After click on Create repository
+
+2) Open CMD ( or ) Visual Studio Code Enter
+
+   --> git clone paste repository link
+      Ex :git clone https://github.com/mahendra180993/Dl-NewScreens.git
+   -->Next change directory to your repository
+ Copy your files in your Repository
+
+3) Then check status
+
+commands
+
+  --> git status
+  --> git add . (or) git add your filename
+  --> git status
+  --> git commit -m "some contant"
+				|
+				-->you any blocker you can configer your email and name
+     --> git config --global user.name "FIRST_NAME LAST_NAME"
+     --> git config --global user.email "MY_NAME@example.com"
+  --> git push

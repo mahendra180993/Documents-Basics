@@ -1,0 +1,52 @@
+1)Go to 
+
+https://create-react-app.dev/docs/making-a-progressive-web-app/
+
+2) copy or type this command in your enivronment (visual studio code )
+
+npx create-react-app my-app --template cra-template-pwa
+
+3)open that App in (visual studio code ) and repalce file in src (App.js and remaining any JS files and floders).
+
+4) Open index.js to change serviceWorkerRegistration.unregister(); to serviceWorkerRegistration.register();
+
+5)After you can change favicons (Goto pubilc floder and Replace favicon and logo192 & logo512 with your icons ).
+
+6)you can install the react-icons , react-router-dom , tailwind CSS
+
+	commands : npm i react-icons react-router-dom
+			( or )
+		    -->	npm i react-icons
+		    -->	npm i react-router-dom
+
+7)tailwind CSS installation
+
+   -->Goto https://tailwindcss.com/docs/installation
+   -->Click Framework Guides
+   -->Select Create react App
+
+	Commands:
+	     |
+             --> npm install -D tailwindcss postcss autoprefixer
+             --> npx tailwindcss init -p
+             --> Open tailwind.config.js file. and peast "./src/**/*.{js,jsx,ts,tsx}", --> into content :[],
+	     --> Open ./src/index.css file and Replace @tailwind base;@tailwind components;@tailwind utilities; 
+		 This three files
+
+8)After complection of above process you can build the file
+	command : npm run build
+
+9)Now you can See one extra file in your App --> build
+
+10)Open your Hostted place Like -->( https://www.netlify.com/ (or) https://console.firebase.google.com/ )
+
+  Process in https://www.netlify.com/
+
+  --> Open and Click in Get start for free
+  --> Continue With GitHub account
+
+11) you can Drag and Drop your build file here and it's show in upside the website file deploy link
+
+Now you can use that link to PWA (Process is over).......
+
+						Get Start..........All The Best...
